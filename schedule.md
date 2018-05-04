@@ -69,5 +69,5 @@ If your database is set up the way you want it to be, go ahead and seed to _Hero
 ### Final Touches
 * Finish README.
 * Troubleshoot/Debug.
-* If there is time, try and accomplish some of the stretch goals (listed on the README page).
+* If there is time, try and accomplish some of the stretch goals.
 * Deploy to [Heroku](https://www.heroku.com/).

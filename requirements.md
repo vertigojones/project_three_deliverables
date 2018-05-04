@@ -20,8 +20,8 @@ of the project week. A **minimum** of 30 commits is required!
   - A Link to the Trello Board
   - A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
   - A link to the ERD
-  - A list of technologies, libraries, and/or frameworks used in the project, such as `Bootstrap`, `jQuery`, or `Animate.css`
-  - What you would like to add in version 2
+  - A list of technologies, libraries, and/or frameworks used in the project, such as `Express.s`, `React.js`, or `Semantic-UI`
+  - What you would like to add in version 2.0
 * Wireframes or Mockups -- what does the app look like?
   - Simple: take a picture of a whiteboard drawing
   - Advanced: use a tool such as [Balsamiq](https://balsamiq.com/) or [Mockingbird](https://gomockingbird.com/home)
