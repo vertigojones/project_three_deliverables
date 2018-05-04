@@ -7,7 +7,7 @@ Always be commiting. Deploy early and often.
 
 **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
 
-**Consider your data flow and ERD**. It's easier to embed both your second and third model into your first, rather than embed your third into your second. Think carefully about how you want to structure your models.
+**Consider your data flow and ERD**. It's easier to embed _both_ your second and third model into your first, rather than embed your third into your second. Think carefully about how you want to structure your models.
 
 Here's a rough sketch of what you should do and in what order:
 
@@ -22,9 +22,11 @@ Here's a rough sketch of what you should do and in what order:
 * __Initialize Git__. Create a new repisitory on _GitHub_ and link it to your new project. Remember to make it "public" and de-select the "Initialize this repository with a README" option. Then follow the steps.
 * __Initialize Heroku__. As soon as you have connected your project to _GitHub_, set up your _Heroku_ account also:
 
-``heroku create``
-``heroku addons:create mongolab:sandbox``
-``git push heroku master``
+```bash
+heroku create
+heroku addons:create mongolab:sandbox
+git push heroku master
+```
 
 * __Seed!__. Set up your database and seeds by hard-coding some sample data. It's best to create your data for all three models up front. Deploy to Mongo:
 
@@ -32,11 +34,13 @@ Here's a rough sketch of what you should do and in what order:
 
 Make sure that your seeds have been deployed by running _Mongo_:
 
-``mongo``
-``show dbs``
-``use folder_name``
-``show collections``
-``db.find.collection_name().pretty()``
+```bash
+mongo
+show dbs
+use folder_name
+show collections
+db.find.collection_name().pretty()
+```
 
 If your database is set up the way you want it to be, go ahead and seed to _Heroku_:
 
