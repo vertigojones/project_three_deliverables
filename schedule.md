@@ -28,7 +28,7 @@ heroku addons:create mongolab:sandbox
 git push heroku master
 ```
 
-* __Seed!__. Set up your database and seeds by hard-coding some sample data. It's best to create your data for all three models up front. Deploy to Mongo:
+* __Seed!__ Set up your database and seeds by hard-coding some sample data. It's best to create your data for all three models up front. Deploy to _Mongo_:
 
 ``node db/seeds.js``
 
@@ -51,7 +51,7 @@ If your database is set up the way you want it to be, go ahead and seed to _Hero
 * __Branch__. Use _Git Branching_ for experimenting with different ideas and technologies.
 
 ### Set up React
-*__Create your front-end environment__. Once you have CRUD working with your first model on the back-end (or at least have your main index routed correctly), then start building out your _React_ environment. Again, make sure to install your dependencies. **All React dependencies should be install inside the "client" folder only**. The best reference for installing _React_ can be found [here](https://github.com/ATL-WDI-Exercises/rails_bog_app/blob/master/Bog_MERN_Stack.md).
+* __Create your front-end environment__. Once you have CRUD working with your first model on the back-end (or at least have your main index routed correctly), then start building out your _React_ environment. Again, make sure to install your dependencies. **All React dependencies should be install inside the "client" folder only**. The best reference for installing _React_ can be found [here](https://github.com/ATL-WDI-Exercises/rails_bog_app/blob/master/Bog_MERN_Stack.md).
 * __Build your routes__. Using _React_, build your _RESTful_ front-end routes. Start with the main index route, then work on your individual CRUD (Create, Read, Update and Delete) routes for your first model. Put some time into planning your components and overall design flow.
 * __Basic styling__. Work on some basic styling for your landing page. Consider using a style library, such as [Material-UI](https://www.material-ui.com/#/) or [Semantic-UI](https://react.semantic-ui.com/introduction). **Reference your Wireframes!**
 * **Don’t hesitate to write throwaway code to solve short-term problems.**
